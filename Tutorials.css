@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Tahoma;
+}
+.product{
+    width: 224px;
+    height: 160px;
+    margin: 90px auto;
+    text-align: center;
+    box-shadow: 0px 0px 7px #bebebe;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.product .num{
+    background-color: cadetblue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto;
+    border-color:  cadetblue;
+    transition: 1s;
+    color: white;
+}
+.product h3 {
+    margin: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.product p {
+    margin: 20px;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.product:hover .num {
+    box-shadow: 0px 0px 0px 201px cadetblue;
+}
+.product:hover p,  
+.product:hover h3  {
+   color: white;
+}
+.dad{
+display: flex;
+}
